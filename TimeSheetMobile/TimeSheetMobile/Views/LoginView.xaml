@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeSheetMobile.Views.LoginView">
+    <ContentView.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#e74c3c" Padding="24" CornerRadius="0">
+                <Label Text="Welcome to TimeSheetMobile!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <StackLayout HorizontalOptions="Center" Margin="0,150" WidthRequest="250">
+                <Label Text="UserName" HorizontalTextAlignment="Center" TextColor="Black" FontSize="18" FontAttributes="Bold" />
+                <Entry Text="Введите имя" HorizontalTextAlignment="Center"/>
+                <Button Text="Войти" BackgroundColor="#27ae60" CornerRadius="15"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
